@@ -247,8 +247,8 @@ wheels/
 .env.local
 .env.*.local
 
-# Data (optional—comment out if you want to commit data)
-data/corpus/
+# Data (optional—but track chunks for reproducibility)
+data/corpus/builtins.txt
 data/*.json
 
 # Results

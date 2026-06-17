@@ -1,0 +1,9 @@
+Domain: Python Built-in Functions (builtins module)
+
+Why: The builtins module contains essential Python functions like len(), type(), 
+zip(), map(), filter(), etc. Natural ambiguity exists in how these functions work 
+and when to use them. For example, "How does zip() work?" can be interpreted in 
+multiple ways (what it returns, how it handles different length iterables, etc.).
+
+Source: https://docs.python.org/3/library/functions.html
+Date chosen: May 27, 2026

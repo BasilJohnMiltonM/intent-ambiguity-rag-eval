@@ -1,0 +1,252 @@
+[
+  {
+    "question_id": "A01",
+    "question": "What is the use of the len function in Python?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Finding the number of elements in a list",
+      "Calculating the length of a string",
+      "Determining the size of a collection"
+    ]
+  },
+  {
+    "question_id": "A02",
+    "question": "How does the map function work in Python?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Mapping a function over a list",
+      "Applying transformations to iterable elements",
+      "Returning an iterator from mapped results"
+    ]
+  },
+  {
+    "question_id": "A03",
+    "question": "What does the max function return in Python?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Largest item in an iterable",
+      "Largest of two or more arguments",
+      "Handling ties among maximum values"
+    ]
+  },
+  {
+    "question_id": "A04",
+    "question": "In what context is the sorted function useful?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Sorting a list of numbers",
+      "Reordering elements in a dictionary",
+      "Sorting strings alphabetically"
+    ]
+  },
+  {
+    "question_id": "A05",
+    "question": "How can you use the isinstance function?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Checking if an object is an instance of a class",
+      "Determining if an object belongs to a specific type",
+      "Validating inheritance in class hierarchies"
+    ]
+  },
+  {
+    "question_id": "A06",
+    "question": "What is the purpose of the id function?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Finding the memory address of an object",
+      "Differentiating objects with the same value",
+      "Understanding object identity vs. value"
+    ]
+  },
+  {
+    "question_id": "A07",
+    "question": "How does the input function behave?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Capturing user input as a string",
+      "Prompting for user input",
+      "Handling input from command-line interfaces"
+    ]
+  },
+  {
+    "question_id": "A08",
+    "question": "What can the hasattr function tell you?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Checking for attribute existence in an object",
+      "Validating object capabilities",
+      "Determining if a property method is defined"
+    ]
+  },
+  {
+    "question_id": "A09",
+    "question": "Why might you use the zip function?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Combining two lists into pairs",
+      "Iterating in parallel over multiple sequences",
+      "Creating a dictionary from two lists"
+    ]
+  },
+  {
+    "question_id": "A10",
+    "question": "When is the lambda function applicable?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Defining small anonymous functions",
+      "Using inline function definitions for higher-order functions",
+      "Simplifying syntax for callback functions"
+    ]
+  },
+  {
+    "question_id": "A11",
+    "question": "How does the enumerate function operate?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Creating an index-element pair",
+      "Iterating over lists with index positions",
+      "Enhancing loops with counters"
+    ]
+  },
+  {
+    "question_id": "A12",
+    "question": "In what scenarios is the all function used?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Checking if all elements in an iterable are true",
+      "Validating a condition across a list",
+      "Ensuring all keys exist in a dictionary"
+    ]
+  },
+  {
+    "question_id": "A13",
+    "question": "What results can the abs function give?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Calculating the absolute value of a number",
+      "Finding the magnitude of a complex number",
+      "Determining positive equivalents for negative values"
+    ]
+  },
+  {
+    "question_id": "A14",
+    "question": "Why would one use the eval function?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Evaluating expressions from a string",
+      "Converting data strings into executable code",
+      "Testing small code snippets at runtime"
+    ]
+  },
+  {
+    "question_id": "A15",
+    "question": "What is the role of the round function?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Rounding a floating-point number to nearest integer",
+      "Handling rounding for specified decimal places",
+      "Applying rounding rules in financial calculations"
+    ]
+  },
+  {
+    "question_id": "A16",
+    "question": "When does the range function become useful?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Generating a sequence of numbers",
+      "Iterating over indices in a loop",
+      "Creating sequences with specified steps"
+    ]
+  },
+  {
+    "question_id": "A17",
+    "question": "How is the open function applied in Python?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Opening a file for reading",
+      "Opening a file for writing",
+      "Configuring a file object with specific modes"
+    ]
+  },
+  {
+    "question_id": "A18",
+    "question": "In what context does the exec function execute?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Running Python code from a string",
+      "Executing dynamic code within a program",
+      "Performing commands with side effects"
+    ]
+  },
+  {
+    "question_id": "A19",
+    "question": "How can the getattr function enhance code?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Accessing attributes dynamically",
+      "Replacing the dot operator for attributes",
+      "Providing default values for missing attributes"
+    ]
+  },
+  {
+    "question_id": "A20",
+    "question": "What makes the repr function distinctive?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Providing a printable string representation",
+      "Returning a string that can be evaluated to recreate the object",
+      "Improving debugging with informative outputs"
+    ]
+  },
+  {
+    "question_id": "A21",
+    "question": "Under what conditions does the any function return true?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "At least one element in an iterable is true",
+      "Checking presence of a truthy element in collections",
+      "Assessing logical disjunction among boolean values"
+    ]
+  },
+  {
+    "question_id": "A22",
+    "question": "Why would you use the slice function?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Creating a slice object for sequence indexing",
+      "Extracting sublists or substrings",
+      "Controlling step size in sequence access"
+    ]
+  },
+  {
+    "question_id": "A23",
+    "question": "How can globals be accessed through the globals function?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Inspecting a dictionary of the current global symbol table",
+      "Modifying global variables from within a function",
+      "Understanding the scope of global variables"
+    ]
+  },
+  {
+    "question_id": "A24",
+    "question": "When is the print function's flexibility advantageous?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Printing multiple values with separators",
+      "Redirecting output to files",
+      "Formatting strings with variable substitutions"
+    ]
+  },
+  {
+    "question_id": "A25",
+    "question": "What considerations come with using the chr function?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Converting numeric ASCII values to characters",
+      "Handling Unicode characters beyond standard ASCII",
+      "Ensuring compatibility with different character encodings"
+    ]
+  }
+]

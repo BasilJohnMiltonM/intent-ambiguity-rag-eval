@@ -1,0 +1,527 @@
+[
+  {
+    "question_id": "U01",
+    "question": "What value does the abs() function return when given the input -5?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `abs()` function returns the value `5` when given the input `-5`."
+  },
+  {
+    "question_id": "U02",
+    "question": "What is the type of the object returned by the all() function in Python?",
+    "ambiguity_label": 0,
+    "ground_truth": "The type of the object returned by the `all()` function in Python is `bool`."
+  },
+  {
+    "question_id": "U03",
+    "question": "What is the default return value of the any() function when called with an empty iterable?",
+    "ambiguity_label": 0,
+    "ground_truth": "False"
+  },
+  {
+    "question_id": "U04",
+    "question": "What does the bool() function return when the input value is 0?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `bool()` function returns `False` when the input value is 0."
+  },
+  {
+    "question_id": "U05",
+    "question": "Which built-in function would you use to convert a string to a floating point number?",
+    "ambiguity_label": 0,
+    "ground_truth": "The built-in function to convert a string to a floating point number is `float()`."
+  },
+  {
+    "question_id": "U06",
+    "question": "What does the chr() function return when given the input 100?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `chr()` function returns the string `'d'` when given the input 100."
+  },
+  {
+    "question_id": "U07",
+    "question": "What is the purpose of the dir() function in Python?",
+    "ambiguity_label": 0,
+    "ground_truth": "The purpose of the `dir()` function in Python is to attempt to return a list of valid attributes for an object."
+  },
+  {
+    "question_id": "U08",
+    "question": "How many arguments does the divmod() function return?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `divmod()` function returns 2 arguments."
+  },
+  {
+    "question_id": "U09",
+    "question": "What type of object is returned by the enumerate() function?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `enumerate()` function returns an enumerate object."
+  },
+  {
+    "question_id": "U10",
+    "question": "What is the purpose of the eval() function in Python?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `eval()` function in Python parses the expression passed to it and executes Python expressions within the program from a string-based input."
+  },
+  {
+    "question_id": "U11",
+    "question": "What does the filter() function return in Python?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `filter()` function returns an iterator yielding those items of the iterable for which the function returns true."
+  },
+  {
+    "question_id": "U12",
+    "question": "What is the behavior of the frozenset() function when given a list as its argument?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `frozenset()` function creates an immutable frozenset object containing unique elements from the given list."
+  },
+  {
+    "question_id": "U13",
+    "question": "How many positional arguments does the int() function accept?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `int()` function accepts one positional argument."
+  },
+  {
+    "question_id": "U14",
+    "question": "What does the isinstance() function check for in Python?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `isinstance()` function checks whether an object is an instance or subclass of a specified class or tuple of classes."
+  },
+  {
+    "question_id": "U15",
+    "question": "What does the len() function return when applied to a dictionary with three key-value pairs?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `len()` function returns 3 when applied to a dictionary with three key-value pairs."
+  },
+  {
+    "question_id": "U16",
+    "question": "What value does the max() function return when provided with the list [1, 5, 3]?",
+    "ambiguity_label": 0,
+    "ground_truth": "The max() function returns 5 for the list [1, 5, 3]."
+  },
+  {
+    "question_id": "U17",
+    "question": "What is the purpose of the min() function in Python?",
+    "ambiguity_label": 0,
+    "ground_truth": "The purpose of the min() function in Python is to return the smallest item from an iterable or the smallest of two or more arguments."
+  },
+  {
+    "question_id": "U18",
+    "question": "What does the open() function return in Python?",
+    "ambiguity_label": 0,
+    "ground_truth": "The open() function returns a file object."
+  },
+  {
+    "question_id": "U19",
+    "question": "What type of object does the ord() function return?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `ord()` function returns an integer object."
+  },
+  {
+    "question_id": "U20",
+    "question": "How does the pow() function calculate its result with three arguments provided?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `pow()` function calculates the result by computing `(x ** y) % z` efficiently when three arguments are provided."
+  },
+  {
+    "question_id": "U21",
+    "question": "What is the behavior of the range() function when given a single numeric argument?",
+    "ambiguity_label": 0,
+    "ground_truth": "When given a single numeric argument `n`, the `range()` function produces a sequence of numbers from `0` up to, but not including, `n`."
+  },
+  {
+    "question_id": "U22",
+    "question": "What does the reversed() function return in Python?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `reversed()` function returns an iterator that accesses the given sequence in the reverse order."
+  },
+  {
+    "question_id": "U23",
+    "question": "What will the round() function return when applied to 5.678 with two decimal places?",
+    "ambiguity_label": 0,
+    "ground_truth": "The round() function will return 5.68 when applied to 5.678 with two decimal places."
+  },
+  {
+    "question_id": "U24",
+    "question": "What type of object does the sorted() function return?",
+    "ambiguity_label": 0,
+    "ground_truth": "The `sorted()` function returns a new list."
+  },
+  {
+    "question_id": "U25",
+    "question": "What is the use of the zip() function in Python?",
+    "ambiguity_label": 0,
+    "ground_truth": "The zip() function in Python is used to combine multiple iterables (like lists or tuples) element-wise into tuples, creating an iterator of these tuples."
+  },
+  {
+    "question_id": "A01",
+    "question": "What is the use of the len function in Python?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Finding the number of elements in a list",
+      "Calculating the length of a string",
+      "Determining the size of a collection"
+    ],
+    "ground_truth_answers": [
+      "The `len` function in Python is used to find the number of elements in a list.",
+      "The `len` function in Python is used to calculate and return the number of characters in a string.",
+      "The `len` function in Python is used to determine the number of items in a collection, such as a list, tuple, set, dictionary, or string."
+    ]
+  },
+  {
+    "question_id": "A02",
+    "question": "How does the map function work in Python?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Mapping a function over a list",
+      "Applying transformations to iterable elements",
+      "Returning an iterator from mapped results"
+    ],
+    "ground_truth_answers": [
+      "The `map` function in Python applies a specified function to every item of an iterable (such as a list) and returns a map object (an iterator) with the results.",
+      "The `map` function in Python applies a specified function to each item of an iterable (such as a list, tuple, etc.) and returns an iterator that yields the results.",
+      "The `map` function in Python applies a given function to each item of an iterable (such as a list or tuple) and returns an iterator that produces the results."
+    ]
+  },
+  {
+    "question_id": "A03",
+    "question": "What does the max function return in Python?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Largest item in an iterable",
+      "Largest of two or more arguments",
+      "Handling ties among maximum values"
+    ],
+    "ground_truth_answers": [
+      "The largest item in an iterable.",
+      "The `max` function returns the largest of the given arguments.",
+      "The `max` function in Python returns the first occurrence of the maximum value when handling ties."
+    ]
+  },
+  {
+    "question_id": "A04",
+    "question": "In what context is the sorted function useful?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Sorting a list of numbers",
+      "Reordering elements in a dictionary",
+      "Sorting strings alphabetically"
+    ],
+    "ground_truth_answers": [
+      "The `sorted` function is useful for arranging a list of numbers in ascending or descending order.",
+      "The `sorted` function is useful for reordering elements in a dictionary by sorting its keys, values, or items.",
+      "The `sorted` function is useful in the context of sorting strings alphabetically to order the elements of an iterable, such as a list of strings, in ascending (A-Z) order by default."
+    ]
+  },
+  {
+    "question_id": "A05",
+    "question": "How can you use the isinstance function?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Checking if an object is an instance of a class",
+      "Determining if an object belongs to a specific type",
+      "Validating inheritance in class hierarchies"
+    ],
+    "ground_truth_answers": [
+      "The `isinstance()` function is used with the syntax `isinstance(object, classinfo)` to check if an object is an instance or subclass of a specified class or a tuple of classes.",
+      "You can use the `isinstance()` function by passing an object and a type (or a tuple of types) as arguments, and it will return `True` if the object is an instance of the specified type or one of the types in the tuple, otherwise it returns `False`.",
+      "The `isinstance()` function can be used to check if an object is an instance of a class or a subclass thereof, thus validating class inheritance in Python."
+    ]
+  },
+  {
+    "question_id": "A06",
+    "question": "What is the purpose of the id function?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Finding the memory address of an object",
+      "Differentiating objects with the same value",
+      "Understanding object identity vs. value"
+    ],
+    "ground_truth_answers": [
+      "The purpose of the id function is to return the \"identity\" of an object, which is the memory address where the object is stored.",
+      "The purpose of the id function is to return the unique identity of an object, which helps differentiate objects with the same value by providing their distinct memory addresses.",
+      "The purpose of the id function is to return the unique identity of an object, which is a constant value for the object during its lifetime."
+    ]
+  },
+  {
+    "question_id": "A07",
+    "question": "How does the input function behave?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Capturing user input as a string",
+      "Prompting for user input",
+      "Handling input from command-line interfaces"
+    ],
+    "ground_truth_answers": [
+      "The `input()` function reads a line from input, converts it to a string (stripping a trailing newline), and returns that.",
+      "The `input` function prompts the user for input by displaying a message, waits for the user to type a response and press Enter, and then returns the entered data as a string.",
+      "The `input` function reads a line from the command line interface, converts it to a string (stripping a trailing newline), and returns it. It waits for the user to type a line of input and press Enter."
+    ]
+  },
+  {
+    "question_id": "A08",
+    "question": "What can the hasattr function tell you?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Checking for attribute existence in an object",
+      "Validating object capabilities",
+      "Determining if a property method is defined"
+    ],
+    "ground_truth_answers": [
+      "The `hasattr` function can tell you whether a specified attribute exists in an object, returning `True` if it does and `False` otherwise.",
+      "The `hasattr` function can tell you whether an object has an attribute with a specified name, indicating the object's capability to possess or perform certain behaviors associated with that attribute.",
+      "The `hasattr` function can tell you if an object has an attribute or method with the specified name."
+    ]
+  },
+  {
+    "question_id": "A09",
+    "question": "Why might you use the zip function?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Combining two lists into pairs",
+      "Iterating in parallel over multiple sequences",
+      "Creating a dictionary from two lists"
+    ],
+    "ground_truth_answers": [
+      "You might use the zip function to combine two lists into pairs by creating an iterator that aggregates elements from each list.",
+      "To iterate in parallel over multiple sequences.",
+      "To pair elements from two lists as key-value pairs in a dictionary comprehensively."
+    ]
+  },
+  {
+    "question_id": "A10",
+    "question": "When is the lambda function applicable?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Defining small anonymous functions",
+      "Using inline function definitions for higher-order functions",
+      "Simplifying syntax for callback functions"
+    ],
+    "ground_truth_answers": [
+      "Lambda functions are applicable when you need to define small, one-off anonymous functions for short-term use, typically within contexts like map(), filter(), or sorting operations.",
+      "Lambda functions are applicable when a small, single-expression function is needed as an argument for higher-order functions like `map()`, `filter()`, and `sorted()`, or when a quick, throwaway function is required inline.",
+      "The lambda function is applicable when you need a quick, small anonymous function for simplifying callback function syntax."
+    ]
+  },
+  {
+    "question_id": "A11",
+    "question": "How does the enumerate function operate?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Creating an index-element pair",
+      "Iterating over lists with index positions",
+      "Enhancing loops with counters"
+    ],
+    "ground_truth_answers": [
+      "The `enumerate` function returns an iterator that produces pairs of an index and the corresponding element from the input iterable.",
+      "The `enumerate` function in Python provides an index and the corresponding element while iterating over a list, allowing for easy access to both the position and value of each item in the list.",
+      "The `enumerate` function adds a counter to an iterable, returning it as an enumerate object containing pairs of an index and the corresponding item from the iterable."
+    ]
+  },
+  {
+    "question_id": "A12",
+    "question": "In what scenarios is the all function used?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Checking if all elements in an iterable are true",
+      "Validating a condition across a list",
+      "Ensuring all keys exist in a dictionary"
+    ],
+    "ground_truth_answers": [
+      "The `all` function is used in scenarios where you need to verify that all elements in an iterable are true (or evaluate to true), such as checking if all conditions are met or if all elements in a list are non-zero or non-empty.",
+      "The `all` function is used when you need to check if all elements in an iterable (like a list) satisfy a certain condition, typically returning `True` if all elements evaluate to `True` and `False` otherwise.",
+      "The `all` function is used in scenarios where you need to check if all specified keys exist in a dictionary by passing a comprehension that tests for the presence of each key."
+    ]
+  },
+  {
+    "question_id": "A13",
+    "question": "What results can the abs function give?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Calculating the absolute value of a number",
+      "Finding the magnitude of a complex number",
+      "Determining positive equivalents for negative values"
+    ],
+    "ground_truth_answers": [
+      "The `abs` function returns the non-negative value of a number, which is the number's distance from zero on the number line.",
+      "The abs function returns the non-negative float magnitude (also known as the modulus) of a complex number.",
+      "The `abs` function returns the absolute value of a number, which is its non-negative equivalent."
+    ]
+  },
+  {
+    "question_id": "A14",
+    "question": "Why would one use the eval function?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Evaluating expressions from a string",
+      "Converting data strings into executable code",
+      "Testing small code snippets at runtime"
+    ],
+    "ground_truth_answers": [
+      "To dynamically execute Python expressions from a string at runtime.",
+      "The `eval` function is used to parse and execute expressions from a string-based data source as Python code.",
+      "The `eval` function is used to execute small Python code snippets stored in strings at runtime, allowing dynamic code evaluation and testing."
+    ]
+  },
+  {
+    "question_id": "A15",
+    "question": "What is the role of the round function?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Rounding a floating-point number to nearest integer",
+      "Handling rounding for specified decimal places",
+      "Applying rounding rules in financial calculations"
+    ],
+    "ground_truth_answers": [
+      "The role of the `round` function is to round a floating-point number to the nearest integer.",
+      "The role of the `round` function is to return a number rounded to a specified number of decimal places.",
+      "The role of the `round` function in financial calculations is to round a floating-point number to a specified number of decimal places, typically to the nearest cent in currency calculations, to adhere to conventional monetary rounding rules."
+    ]
+  },
+  {
+    "question_id": "A16",
+    "question": "When does the range function become useful?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Generating a sequence of numbers",
+      "Iterating over indices in a loop",
+      "Creating sequences with specified steps"
+    ],
+    "ground_truth_answers": [
+      "The range function becomes useful when you need to generate a sequence of numbers for iteration in loops.",
+      "The `range` function becomes useful when you need to iterate over indices in a loop.",
+      "The `range` function becomes useful when creating sequences with specified steps."
+    ]
+  },
+  {
+    "question_id": "A17",
+    "question": "How is the open function applied in Python?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Opening a file for reading",
+      "Opening a file for writing",
+      "Configuring a file object with specific modes"
+    ],
+    "ground_truth_answers": [
+      "The `open` function in Python is used to open a file by specifying the file name and mode as arguments, such as `open('filename', 'r')` for reading a file.",
+      "The `open` function is applied in Python for opening a file for writing by using the mode `'w'`, like so: `open('filename', 'w')`.",
+      "In Python, the `open` function is applied to configure a file object with specific modes by using the syntax `open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)`, where `file` is the path-like object representing the pathname of the file to be opened, and `mode` is a string indicating how the file is to be opened (e.g., 'r' for reading, 'w' for writing, 'a' for appending, with possible additional characters like 'b' for binary mode or '+' for updating). The other parameters allow for additional configuration of the file object's behavior."
+    ]
+  },
+  {
+    "question_id": "A18",
+    "question": "In what context does the exec function execute?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Running Python code from a string",
+      "Executing dynamic code within a program",
+      "Performing commands with side effects"
+    ],
+    "ground_truth_answers": [
+      "The `exec` function executes in the current scope, which is the local and global namespace where the `exec` is called.",
+      "The `exec` function executes dynamic code within the context of the current global and local namespaces unless explicitly specified otherwise.",
+      "The `exec` function in Python executes in the current scope unless explicitly specified, allowing it to perform commands with side effects such as modifying variables or definitions in that scope."
+    ]
+  },
+  {
+    "question_id": "A19",
+    "question": "How can the getattr function enhance code?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Accessing attributes dynamically",
+      "Replacing the dot operator for attributes",
+      "Providing default values for missing attributes"
+    ],
+    "ground_truth_answers": [
+      "The `getattr` function enhances code by allowing dynamic access to an object\u2019s attributes, enabling code to retrieve attributes by name at runtime.",
+      "The `getattr` function enhances code by allowing dynamic access to an object's attributes, which can make code more flexible and reduce the need for hard-coded attribute names.",
+      "The `getattr` function enhances code by allowing you to provide a default value for attributes that may be missing, thus preventing `AttributeError` and increasing code robustness."
+    ]
+  },
+  {
+    "question_id": "A20",
+    "question": "What makes the repr function distinctive?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Providing a printable string representation",
+      "Returning a string that can be evaluated to recreate the object",
+      "Improving debugging with informative outputs"
+    ],
+    "ground_truth_answers": [
+      "The `repr` function provides a printable string representation of an object that is meant to be unambiguous and, if possible, match the syntax necessary to recreate the object.",
+      "The `repr` function is distinctive because it returns a string representation of an object that can often be used with the `eval()` function to recreate the object.",
+      "The `repr` function provides a string representation of an object that is informative and unambiguous, thereby improving debugging by offering outputs that are typically more detailed than those given by `str`."
+    ]
+  },
+  {
+    "question_id": "A21",
+    "question": "Under what conditions does the any function return true?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "At least one element in an iterable is true",
+      "Checking presence of a truthy element in collections",
+      "Assessing logical disjunction among boolean values"
+    ],
+    "ground_truth_answers": [
+      "The `any` function returns true if at least one element in the iterable is true.",
+      "The any function returns true if at least one element in the collection is truthy.",
+      "The `any` function returns true if at least one of the boolean values in the iterable is true."
+    ]
+  },
+  {
+    "question_id": "A22",
+    "question": "Why would you use the slice function?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Creating a slice object for sequence indexing",
+      "Extracting sublists or substrings",
+      "Controlling step size in sequence access"
+    ],
+    "ground_truth_answers": [
+      "To create a reusable slice object that can be applied to multiple sequence indices for extracting consistent subsections.",
+      "To extract specific portions of sequences like lists, strings, or tuples without modifying the original data.",
+      "The slice function allows you to control the step size in sequence access, enabling customized iterations over sequences like lists, tuples, or strings."
+    ]
+  },
+  {
+    "question_id": "A23",
+    "question": "How can globals be accessed through the globals function?",
+    "ambiguity_label": 3,
+    "interpretations": [
+      "Inspecting a dictionary of the current global symbol table",
+      "Modifying global variables from within a function",
+      "Understanding the scope of global variables"
+    ],
+    "ground_truth_answers": [
+      "Globals can be accessed through the `globals()` function by calling it to return a dictionary representing the current global symbol table.",
+      "You can modify global variables within a function by first calling `globals()` to access the dictionary of global variables, and then modifying the variable within that dictionary.",
+      "Global variables can be accessed through the `globals()` function, which returns a dictionary representing the current global symbol table."
+    ]
+  },
+  {
+    "question_id": "A24",
+    "question": "When is the print function's flexibility advantageous?",
+    "ambiguity_label": 2,
+    "interpretations": [
+      "Printing multiple values with separators",
+      "Redirecting output to files",
+      "Formatting strings with variable substitutions"
+    ],
+    "ground_truth_answers": [
+      "The print function's flexibility is advantageous when you need to print multiple values with custom separators and end characters.",
+      "The print function's flexibility is advantageous when redirecting output to files because it allows specifying a file object as the target for output using the `file` parameter.",
+      "The print function's flexibility is advantageous when using f-strings for formatting strings with variable substitutions."
+    ]
+  },
+  {
+    "question_id": "A25",
+    "question": "What considerations come with using the chr function?",
+    "ambiguity_label": 1,
+    "interpretations": [
+      "Converting numeric ASCII values to characters",
+      "Handling Unicode characters beyond standard ASCII",
+      "Ensuring compatibility with different character encodings"
+    ],
+    "ground_truth_answers": [
+      "When using the `chr` function to convert numeric ASCII values to characters, considerations include ensuring the integer is within the valid range (0 to 1114111), potential errors from invalid inputs (such as negative values or values exceeding the range), and understanding that the function returns a string representing the character corresponding to the Unicode code point.",
+      "When using the `chr` function to handle Unicode characters beyond standard ASCII, considerations include ensuring the validity of the input code points (within the range 0 through 1,114,111), proper handling of non-printable characters, and understanding the differences in character encoding across different Unicode versions.",
+      "The `chr` function in Python returns a string representing a character whose Unicode code point is the integer provided. Since it operates with Unicode code points, the primary consideration is ensuring that the environment and handling systems support Unicode, which is a widespread standard."
+    ]
+  }
+]

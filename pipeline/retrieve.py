@@ -13,7 +13,7 @@ class RAGRetriever:
     def __init__(self, 
                  index_path='data/corpus/faiss_index.bin',
                  metadata_path='data/corpus/index_metadata.json',
-                 model_name='all-MiniLM-L6-v2'):
+                 model_name='all-mpnet-base-v2'):
         """
         Initialize retriever.
         

@@ -10,7 +10,7 @@ def load_chunks(chunks_path='data/corpus/builtins_chunks.json'):
         chunks = json.load(f)
     return chunks
 
-def build_embeddings(chunks, model_name='all-MiniLM-L6-v2'):
+def build_embeddings(chunks, model_name='all-mpnet-base-v2'):
     """
     Embed all chunks using sentence-transformers.
     

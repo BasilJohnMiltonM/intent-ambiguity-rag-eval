@@ -1,0 +1,6 @@
+{
+  "total_chunks": 35,
+  "domain": "Python builtins",
+  "chunk_size": 400,
+  "chunk_overlap": 50
+}
